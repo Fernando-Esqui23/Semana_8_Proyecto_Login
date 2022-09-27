@@ -106,5 +106,10 @@ namespace Semana_8_Proyecto_Login
 
             conn.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

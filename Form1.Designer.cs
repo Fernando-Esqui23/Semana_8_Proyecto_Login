@@ -268,7 +268,7 @@ namespace Semana_8_Proyecto_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(481, 381);
             this.Controls.Add(this.lsNivel);
             this.Controls.Add(this.btnActualizar);
@@ -287,6 +287,7 @@ namespace Semana_8_Proyecto_Login
             this.Controls.Add(this.btnAnterior);
             this.Controls.Add(this.btnPrimero);
             this.Controls.Add(this.pictureBox1);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "FormUsuarios";
             this.Text = "FormUsuarios";
             this.Load += new System.EventHandler(this.Form1_Load);

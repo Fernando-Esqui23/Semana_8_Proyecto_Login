@@ -36,13 +36,14 @@ namespace Semana_8_Proyecto_Login
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnMySQL
             // 
-            this.btnMySQL.Location = new System.Drawing.Point(330, 306);
+            this.btnMySQL.Location = new System.Drawing.Point(218, 280);
             this.btnMySQL.Name = "btnMySQL";
-            this.btnMySQL.Size = new System.Drawing.Size(75, 23);
+            this.btnMySQL.Size = new System.Drawing.Size(84, 39);
             this.btnMySQL.TabIndex = 23;
             this.btnMySQL.Text = "MySQL";
             this.btnMySQL.UseVisualStyleBackColor = true;
@@ -50,9 +51,9 @@ namespace Semana_8_Proyecto_Login
             // 
             // btnAccess
             // 
-            this.btnAccess.Location = new System.Drawing.Point(102, 306);
+            this.btnAccess.Location = new System.Drawing.Point(82, 280);
             this.btnAccess.Name = "btnAccess";
-            this.btnAccess.Size = new System.Drawing.Size(75, 23);
+            this.btnAccess.Size = new System.Drawing.Size(84, 38);
             this.btnAccess.TabIndex = 21;
             this.btnAccess.Text = "Access";
             this.btnAccess.UseVisualStyleBackColor = true;
@@ -107,12 +108,23 @@ namespace Semana_8_Proyecto_Login
             this.label1.TabIndex = 16;
             this.label1.Text = "Login";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(359, 280);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(84, 39);
+            this.button1.TabIndex = 24;
+            this.button1.Text = "Salir";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(504, 369);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnMySQL);
             this.Controls.Add(this.btnAccess);
             this.Controls.Add(this.txtPassword);
@@ -136,5 +148,6 @@ namespace Semana_8_Proyecto_Login
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }
